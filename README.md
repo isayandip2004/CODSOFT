@@ -1,53 +1,81 @@
-CODSOFT Data Science Internship Projects
-Welcome to my CODSOFT Data Science Internship repository! This repository contains the code and documentation for three exciting machine learning projects that I completed during my internship.
+# CODSOFT Data Science Internship Projects
+Welcome to my CODSOFT Data Science Internship repository! 
+This repository contains the code and documentation for three exciting machine learning projects that I completed during my internship.
 
-Table of Contents
-Credit Card Fraud Detection
-Movie Rating Prediction
-Iris Flower Classification
-Installation
-Usage
-Contributing
-License
-Credit Card Fraud Detection
-Overview
-This project focuses on detecting fraudulent credit card transactions using machine learning techniques. The goal is to create a model that can accurately distinguish between genuine and fraudulent transactions.
+## Table of Contents
+1. [Credit Card Fraud Detection](#credit-card-fraud-detection)
+2. [Movie Rating Prediction](#movie-rating-prediction)
+3. [Iris Flower Classification](#iris-flower-classification)
+4. [Installation](#installation)
+5. [Usage](#usage)
+6. [Contributing](#contributing)
 
-Highlights
-Data Preprocessing: Handled class imbalance using oversampling techniques.
-Model Development: Implemented logistic regression and random forests.
-Evaluation: Used precision, recall, and F1-score for model evaluation.
-Files
-credit_card_fraud_detection.ipynb: Jupyter notebook with the full implementation.
-data/creditcard.csv: Dataset used for training and testing the model.
-Demo
-Watch the video demo of this project.
 
-Movie Rating Prediction
-Overview
-In this project, I developed a model to predict movie ratings based on various features such as genre, director, and cast.
+## Credit Card Fraud Detection
+### Overview
+This project focuses on detecting fraudulent credit card transactions using machine learning techniques.
 
-Highlights
-Data Analysis: Performed exploratory data analysis to identify key features.
-Feature Engineering: Selected and processed features relevant to movie ratings.
-Model Building: Utilized regression techniques to build the prediction model.
-Files
-movie_rating_prediction.ipynb: Jupyter notebook with the complete implementation.
-data/movies.csv: Dataset used for training and testing the model.
-Demo
-Watch the video demo of this project.
+### Highlights
+- **Data Preprocessing**: Handled class imbalance using oversampling techniques.
+- **Model Development**: Implemented logistic regression and random forests.
+- **Evaluation**: Used precision, recall, and F1-score for model evaluation.
 
-Iris Flower Classification
-Overview
-This classic project involves classifying Iris flowers into species based on their sepal and petal measurements.
+### Files
+- `credit-card-fraud.ipynb`: Jupyter notebook with the full implementation.
+- `creditcard.csv`: Dataset used for training and testing the model.
 
-Highlights
-Data Exploration: Analyzed the Iris dataset for insights and patterns.
-Model Training: Developed a classification model using logistic regression.
-Accuracy: Achieved high accuracy in species classification.
-Files
-iris_flower_classification.ipynb: Jupyter notebook with the complete implementation.
-data/iris.csv: Dataset used for training and testing the model.
-Demo
-Watch the video demo of this project.
+
+## Movie Rating Prediction
+### Overview
+This project focuses on detecting fraudulent credit card transactions using machine learning techniques.
+
+### Highlights
+- **Data Preprocessing**: Handled class imbalance using oversampling techniques.
+- **Model Development**: Implemented logistic regression and random forests.
+- **Evaluation**: Used precision, recall, and F1-score for model evaluation.
+
+### Files
+- `movie-rating-prediction-model.ipynb`: Jupyter notebook with the full implementation.
+- `IMDb Movies India.csv`: Dataset used for training and testing the model.
+
+
+## Iris Flower Classification
+### Overview
+This project focuses on detecting fraudulent credit card transactions using machine learning techniques.
+
+### Highlights
+- **Data Preprocessing**: Handled class imbalance using oversampling techniques.
+- **Model Development**: Implemented logistic regression and random forests.
+- **Evaluation**: Used precision, recall, and F1-score for model evaluation.
+
+### Files
+- `iris-flower-classification.ipynb`: Jupyter notebook with the full implementation.
+- `IRIS.csv`: Dataset used for training and testing the model.
+
+
+## Installation
+To run these projects locally, follow these steps:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/isayandip2004/CODSOFT.git
+   cd CODSOFT
+2. **Create a virtual environment and activate it**
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+3. **Install the required packages**
+   ```bash
+   pip install -r requirements.txt
+
+## Usage
+Open the Jupyter notebooks in your browser to run and explore the projects:
+
+```bash
+jupyter notebook
+```
+Navigate to the respective project directory and open the .ipynb file.
+
+## Contributing
+Contributions are welcome! Please fork this repository and submit a pull request for any improvements or bug fixes.
 
